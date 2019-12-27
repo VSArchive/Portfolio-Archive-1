@@ -1,130 +1,66 @@
-# texture
+<p align="center">
+    <h2 align="center">Indigo Minimalist Jekyll Template - <a href="http://sergiokopplin.github.io/indigo/">Demo</a> · <a href="https://travis-ci.org/sergiokopplin/indigo"><img src="https://camo.githubusercontent.com/5393485b732749b3499264168fa8af60166071e8/68747470733a2f2f7472617669732d63692e6f72672f73657267696f6b6f70706c696e2f696e6469676f2e7376673f6272616e63683d67682d7061676573" alt="Build Status" data-canonical-src="https://travis-ci.org/sergiokopplin/indigo.svg?branch=gh-pages" style="max-width:100%;"></a></h2>
+</p>
 
-A configurable jekyll theme for simply beautiful blogs.
+<p align="center">This is a simple and minimalist template for Jekyll for those who likes to eat noodles.</p>
 
-**Demo**: [thelehhman.com/texture](https://thelehhman.com/texture)
+***
 
-![texture theme preview](/screen1.png)
+<p align="center">
+    <b><a href="README.md#what-has-inside">What has inside</a></b>
+    |
+    <b><a href="README.md#setup">Setup</a></b>
+    |
+    <b><a href="README.md#settings">Settings</a></b>
+    |
+    <b><a href="README.md#how-to">How to</a></b>
+</p>
 
+<p align="center">
+    <img src="https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png" />
+</p>
 
-## Installation on Github Pages
+## What has inside
 
-Add this line to your site's `_config.yml`:
-```yaml
-remote_theme: thelehhman/texture
+- [Jekyll](https://jekyllrb.com/), [Sass](http://sass-lang.com/) ~[RSCSS](http://rscss.io/)~ and [SVG](https://www.w3.org/Graphics/SVG/)
+- Tests with [Travis](https://travis-ci.org/)
+- Google Speed: [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F);
+- No JS. :sunglasses:
+
+## Setup
+
+0. :star: to the project. :metal:
+2. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
+3. Edit `_config.yml` with your data (check <a href="README.md#settings">settings</a> section)
+4. Write some posts :bowtie:
+
+If you want to test locally on your machine, do the following steps also:
+
+1. Install [Jekyll](http://jekyllrb.com), [NodeJS](https://nodejs.org/) and [Bundler](http://bundler.io/).
+2. Clone the forked repo on your machine
+3. Enter the cloned folder via terminal and run `bundle install`
+4. Then run `bundle exec jekyll serve --config _config.yml,_config-dev.yml`
+5. Open it in your browser: `http://localhost:4000`
+6. Test your app with `bundle exec htmlproofer ./_site`
+7. Do you want to use the [jekyll-admin](https://jekyll.github.io/jekyll-admin/) plugin to edit your posts? Go to the admin panel: `http://localhost:4000/admin`. The admin panel will not work on GitHub Pages, [only locally](https://github.com/jekyll/jekyll-admin/issues/341#issuecomment-292739469).
+
+## Settings
+
+You must fill some informations on `_config.yml` to customize your site.
+
+```
+name: John Doe
+bio: 'A Man who travels the world eating noodles'
+picture: 'assets/images/profile.jpg'
+...
+
+and lot of other options, like width, projects, pages, read-time, tags, related posts, animations, multiple-authors, etc.
 ```
 
-**NOTE: If you are forking this repo, remove `base_url: /texture` in the `_config.yml` which is required to load the required website assets**
-## Installation
+## How To?
 
-Add this line to your Jekyll site's `Gemfile`:
+Check the [FAQ](./FAQ.md) if you have any doubt or problem.
 
-```ruby
-gem "texture"
-```
+---
 
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-theme: texture
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install texture
-
-## Usage
-
-The "texture" key in _config.yml is used to customize the theme data.
-```yaml
-texture:
-  title: Adam Denisov
-  tagline: Developer. Designer
-  date_format: "%b %-d, %Y"
-
-  social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman # format: locale/username
-```
-
-**Styling**
-
-Multiple header styles are supported using the "style" property under texture in `_config.yml`.
-
-```yaml
-texture:
-  style: [yellow|red|black|blue|green|purple]
-```
-
-For example, the blue style looks like this:
-
-![texture theme blue](/screen2.png)
-
-
-**Texture Picker**
-
-You can toggle the texture picker to show/experiment various textures on your site using the showPicker variable. Remember to make it `false` for production.
-
-```yaml
-texture:
-  showPicker: [false|true] # show the texture selector(development purposes)
-```
-
-**Comments (Disqus)**
-
-Comments on posts can be enabled by specifying your disqus_shortname under texture in `_config.yml`. For example,
-```yaml
-texture:
-  disqus_shortname: games
-```
-
-**Google Analytics**
-
-It can be enabled by specifying your analytics id under texture in `_config.yml`
-```yaml
-texture:
-  analytics_id: '< YOUR ID >'
-```
-
-**Excerpts**
-
-Excerpts can be enabled by adding the following line to your `_config.yml`
-```yaml
-show_excerpts: true
-```
-
-**Toggle Navbar**
-
-```yaml
-texture:
-  showNav: true
-```
-
-**Layouts**
-
-- Home
-- Page
-- Post
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/thelehhman/texture. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `texture.gemspec` accordingly.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
+[MIT](http://kopplin.mit-license.org/) License © Sérgio Kopplin
