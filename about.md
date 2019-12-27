@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 <img style="text-align: center; border-radius: 100%; max-width: 180px;" src="{{ site.url }}/{{ site.picture }}">
-<h1 style="margin-bottom: 3rem; color:#3498db">Anubhav Patel</h1>
+<h1 style="margin-bottom: 3rem; color:#3498db">Vineel Sai</h1>
 
 <h4 align="center" style="opacity: 0.5; font-weight: normal; font-family: 'Consolas', Liberation Mono, Menlo, Courier, monospace; font-size: 1.5rem;">"Remember all things are possible for those who believe."<pre style="border: none;">Gail Devers</pre>
 </h4>
