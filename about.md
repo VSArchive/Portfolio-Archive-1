@@ -22,11 +22,11 @@ layout: page
 	
 </ul>
 
-<h2>GitHub - https://github.com/vineelsai5439 </h2>
+<h2>GitHub - <a href="https://github.com/vineelsai5439/">https://github.com/vineelsai5439</a> </h2>
 
 <h2>Projects</h2>
 
 <ul>
-	<li><a href="https://github.com/Tic-Tac-Toe">Tic Tac Toe</a></li>
+	<li><a href="https://github.com/vineelsai5439/Tic-Tac-Toe">Tic Tac Toe</a></li>
 	
 </ul>
