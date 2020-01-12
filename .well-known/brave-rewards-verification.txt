@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: vineelsai.studio
+Token: 530c1a8d5e13bbb966428ffaa9e9c624484fc6dee02159f9e46c75ef448866e1
