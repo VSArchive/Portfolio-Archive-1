@@ -3,9 +3,9 @@ bio: Life doesn’t happen to you, it happens for you. 💯
 description: A blog about technology and stuff related
 external-image: false
 picture: assets/images/vineel.png
-#resume: true
-#resume-external: true
-#resume-url: 'https://anubhavp28.github.io/Resume/resume.pdf'
+resume: true
+resume-external: true
+resume-url: 'https://vineelsai5439.github.io/resume'
 url: 'https://vineelsai.studio'
 permalink: '/:title/'
 disqus:
@@ -16,7 +16,7 @@ disqus:
 facebook: vineel.sai.vs
 twitter: VineelSai5
 github: vineelsai5439
-#medium: 
+medium: @vineelsai5439
 email: vineelsai5439@gmail.com
 authors:
   vineelsai:
@@ -26,7 +26,7 @@ authors:
     picture: assets/images/vineel.jpg
     twitter: VineelSai5
 width: large
-projects: true
+#projects: true
 about: true
 blog: true
 read-time: true
