@@ -6,7 +6,7 @@ picture: assets/images/vineel.png
 resume: true
 resume-external: true
 resume-url: 'https://vineelsai5439.github.io/resume'
-url: 'https://vineelsai.studio'
+url: 'https://vineelsai5439.github.io'
 permalink: '/:title/'
 disqus:
   shortname: vineel
