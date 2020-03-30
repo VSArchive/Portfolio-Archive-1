@@ -15,18 +15,27 @@ layout: page
 <h2>Skills</h2>
 
 <ul class="skill-list">
+	<li>C</li>
 	<li>Java</li>
 	<li>Python</li>
-	<li>C</li>
-        <li>Html</li>
+    <li>Html</li>
+	<li>git</li>
+	<li>Android Development</li>
 	
 </ul>
 
-<h2>GitHub - <a href="https://github.com/vineelsai5439/">https://github.com/vineelsai5439</a> </h2>
+<h2><a href="https://github.com/vineelsai5439/">GitHub</a> </h2>
 
 <h2>Projects</h2>
-
 <ul>
-	<li><a href="https://github.com/vineelsai5439/Tic-Tac-Toe">Tic Tac Toe</a></li>
-	
+	<h2>Android</h2>
+	<ul>
+		<li><a href="https://github.com/vineelsai5439/Tic-Tac-Toe">Tic Tac Toe</a></li>
+		<li><a href="https://github.com/vineelsai5439/Sudoku">Sudoku</a></li>
+		<li><a href="https://github.com/vineelsai5439/IIIT-Kalyani">IIIT-Kalyani</a></li>
+	</ul>
+	<h2>Python</h2>
+	<ul>
+		<li><a href="https://github.com/vineelsai5439/Find-Temperature">Find-Temperature</a></li>
+	</ul>
 </ul>
