@@ -26,7 +26,7 @@ authors:
     picture: assets/images/vineel.jpg
     twitter: VineelSai5
 width: large
-#projects: true
+projects: true
 about: true
 blog: true
 read-time: true
