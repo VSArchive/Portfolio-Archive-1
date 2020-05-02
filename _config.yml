@@ -10,9 +10,7 @@ url: 'https://vineelsai5439.github.io'
 permalink: '/:title/'
 disqus:
   shortname: vineel
-  categories:
-    - blog
-    - project
+   categories: [blog, project]
 facebook: vineelsai5439
 twitter: vineelsai5439
 github: vineelsai5439
@@ -27,16 +25,35 @@ authors:
     picture: assets/images/vineel.jpg
     twitter: vineelsai5439
 width: large
+
+pagination:
+  enabled: false
+  sort_reverse: true
+  title: ":title"
+  per_page: 5
+  permalink: "/:num/" 
 projects: true
 about: true
 blog: true
 read-time: true
 show-tags: true
 related: true
-post-advance-links:
-  - blog
+post-advance-links: [blog]
 show-author: true
 animation: true
+defaults:
+  - scope:
+      path: ""
+      layout: "post"
+    values:
+      hidden: false
+      
+compress_html:
+  ignore:
+    envs:
+      - development
+      - stage
+
 plugins:
   - jekyll-seo-tag
   - jekyll-gist
@@ -45,3 +62,14 @@ plugins:
   - jekyll-admin
 jekyll-mentions:
   base_url: 'https://github.com'
+
+exclude:
+  [
+    "travis.sh",
+    "README.md",
+    "Gemfile",
+    "Gemfile.lock",
+    "FAQ.md",
+    "node_modules",
+    "vendor",
+  ]
