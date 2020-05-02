@@ -1,6 +1,6 @@
 name: Vineel Sai
 bio: Life doesn’t happen to you, it happens for you. 💯
-description: A blog about technology and stuff related
+description: A blog about technology and related stuff
 external-image: false
 picture: assets/images/vineel.png
 resume: true
@@ -13,8 +13,8 @@ disqus:
   categories:
     - blog
     - project
-facebook: vineel.sai.vs
-twitter: VineelSai5
+facebook: vineelsai5439
+twitter: vineelsai5439
 github: vineelsai5439
 medium: vineelsai5439
 email: vineelsai5439@gmail.com
@@ -24,7 +24,7 @@ authors:
     bio: Life doesn’t happen to you, it happens for you. 💯
     external-image: false
     picture: assets/images/vineel.jpg
-    twitter: VineelSai5
+    twitter: vineelsai5439
 width: large
 projects: true
 about: true
