@@ -33,6 +33,8 @@ layout: page
 		<li><a href="https://github.com/vineelsai5439/Tic-Tac-Toe">Tic Tac Toe</a></li>
 		<li><a href="https://github.com/vineelsai5439/Sudoku">Sudoku</a></li>
 		<li><a href="https://github.com/vineelsai5439/IIIT-Kalyani">IIIT-Kalyani</a></li>
+		<li><a href="https://github.com/vineelsai5439/Paint">Paint</a></li>
+		<li><a href="https://github.com/vineelsai5439/Tasks">Tasks</a></li>
 	</ul>
 	<h2>Python</h2>
 	<ul>
