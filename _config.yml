@@ -10,7 +10,7 @@ url: 'https://vineelsai5439.github.io'
 permalink: '/:title/'
 disqus:
   shortname: vineel
-   categories: [blog, project]
+  categories: [blog, project]
 facebook: vineelsai5439
 twitter: vineelsai5439
 github: vineelsai5439
