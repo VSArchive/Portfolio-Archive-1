@@ -17,10 +17,11 @@ layout: page
 <ul class="skill-list">
 	<li>C</li>
 	<li>Java</li>
+	<li>Kotlin</li>
 	<li>Python</li>
     <li>Html</li>
 	<li>git</li>
-	<li>Android Development</li>
+	<li>Android</li>
 	
 </ul>
 
@@ -32,12 +33,13 @@ layout: page
 	<ul>
 		<li><a href="https://github.com/vineelsai5439/Tic-Tac-Toe">Tic Tac Toe</a></li>
 		<li><a href="https://github.com/vineelsai5439/Sudoku">Sudoku</a></li>
-		<li><a href="https://github.com/vineelsai5439/IIIT-Kalyani">IIIT-Kalyani</a></li>
+		<li><a href="https://github.com/vineelsai5439/IIIT-Kalyani">IIIT Kalyani</a></li>
 		<li><a href="https://github.com/vineelsai5439/Paint">Paint</a></li>
 		<li><a href="https://github.com/vineelsai5439/Tasks">Tasks</a></li>
 	</ul>
 	<h2>Python</h2>
 	<ul>
-		<li><a href="https://github.com/vineelsai5439/Find-Temperature">Find-Temperature</a></li>
+		<li><a href="https://github.com/vineelsai5439/Find-Temperature">Find Temperature</a></li>
+		<li><a href="https://github.com/vineelsai5439/ADB-Exploit">ADB Exploit</a></li>
 	</ul>
 </ul>
